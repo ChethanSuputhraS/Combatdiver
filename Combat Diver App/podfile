@@ -1,0 +1,7 @@
+platform :ios, ‘8.0’
+
+target ‘SC4App18’ do
+pod 'lottie-ios'
+pod 'Fabric'
+pod 'Crashlytics'
+end

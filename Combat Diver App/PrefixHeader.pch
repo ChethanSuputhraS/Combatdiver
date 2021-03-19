@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  SC4App18
+//
+//  Created by stuart watts on 17/04/2018.
+//  Copyright © 2018 Kalpesh Panchasara. All rights reserved.
+//
+
+//#ifndef PrefixHeader_pch
+//#define PrefixHeader_pch
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+
+#import "Constant.h"
+#import "JSON.h"
+#import "URBAlertView.h"
+#import "MBProgressHUD.h"
+#import "DataBaseManager.h"
+#import "BLEManager.h"
+#import "BLEService.h"
+#import "MFSideMenu.h"
+#import "FCAlertView.h"
+#import "ScanVC.h"
+#import "DeviceSetupVC.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
